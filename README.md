@@ -16,6 +16,8 @@
 |---------------------------------------|-------------------------------------------------|
 | `git config --global user.name "Your Name"`    | Set your global username.            |
 | `git config --global user.email "youremail@example.com"` | Set your global email.           |
+| `ssh-keygen -t ed25519 -C "your_email@example.com"` | Generating a new SSH key           |
+| `ssh-add C:\Users\YOU/.ssh/id_ed25519` |In a terminal window without elevated permissions, add your SSH private key to the ssh-agent. If you created your key with a different name, or if you are adding an existing key that has a different name, replace id_ed25519 in the command with the name of your private key file.           |
 
 ## Branching
 
