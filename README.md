@@ -7,6 +7,7 @@
 | `git init`                            | Initialize a new Git repository.               |
 | `git clone <repository>`              | Clone a remote repository to your local machine.|
 | `git clone -b <branch_name> <repository_URL>`              | Clone from a particular branch.|
+|`git clone -b <branch_name> --single-branch <repository_URL> <Give_A_Folder_Name>`| Clone only a particular branch.|
 | `git add <file>`                      | Add changes in a file to the staging area.     |
 | `git commit -m "message"`             | Commit staged changes with a descriptive message.|
 | `git status`                          | View the status of your working directory.      |
