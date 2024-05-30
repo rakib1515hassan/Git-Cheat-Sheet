@@ -1,0 +1,35 @@
+To pull changes from the main branch into your current rakib branch, you need to merge the main branch into rakib. Here are the steps:
+
+
+
+1) Fetch the latest changes from the remote repository:
+
+    >> git fetch origin
+
+
+
+2) Merge the main branch into your current rakib branch:
+
+    >> git merge origin/main
+
+
+
+
+3) Resolve any merge conflicts if they arise: (# Resolve any conflicts if necessary, then:)
+
+NOTE: If there are conflicts, Git will pause and prompt you to resolve them manually. Open the conflicted files, resolve the conflicts, and mark them as resolved:
+
+    >> git add <resolved-file>
+
+    After resolving conflicts, complete the merge:
+
+    >> git commit
+
+
+
+4) Push the merged changes to the remote rakib branch:
+
+    >> git push origin rakib
+
+
+

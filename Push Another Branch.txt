@@ -1,0 +1,35 @@
+To push changes from your rakib branch to the main branch, you'll need to merge your rakib branch into the main branch locally and then push the changes to the remote main branch. Here are the steps:
+
+1) Ensure your local rakib branch is up-to-date:
+
+    >> git fetch origin
+    >> git pull origin rakib
+
+2) Switch to the main branch:
+
+    >> git checkout main
+
+
+3) Ensure your local main branch is up-to-date:
+
+    >> git pull origin main
+
+
+4) Merge the rakib branch into the main branch:
+
+    >> git merge rakib
+
+
+5) Resolve any merge conflicts if they arise:(# Resolve any conflicts if necessary, then:)
+
+NOTE: If there are conflicts, Git will pause and prompt you to resolve them manually. Open the conflicted files, resolve the conflicts, and mark them as resolved: 
+
+    >> git add <resolved-file>
+
+    >> git commit
+
+    >> git push origin main
+
+
+
+
