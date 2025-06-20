@@ -20,6 +20,7 @@
 | `git config --global user.email "youremail@example.com"` | Set your global email.     |
 | `ssh-keygen -t ed25519 -C "your_email@example.com"` | Generating a new SSH key        |
 | `ssh-add C:\Users\YOU/.ssh/id_ed25519` |If you created your key with a different name,|                                          |
+| `ssh-keygen -t ed25519 -C "your_email@example.com" -f ~/.ssh/id_ed25519_your_project_name` |If you created your key with a different name,|                                          |
 | `git config --global --list` |For testing you user name and email|                                          |
 | `git config --global user.name` |For testing you user name|                                          |
 | `git config --global user.email` |For testing you user name|                                          |
