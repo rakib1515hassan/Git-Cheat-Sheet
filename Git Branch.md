@@ -51,8 +51,13 @@ git checkout -b <new-branch>
 
 
 ## 7. Merge changes from a branch into the current branch.
-```bash 
+`
 git merge <branch>
+`
+>[!NOTE]
+> If i am in main branch and i want to merge with dev_rakib
+```bash 
+git merge dev_rakib
 ```
 
 
@@ -78,60 +83,6 @@ git branch -dr <remote>/<branch>
 ```
 
 
-
-## 10.
-```bash 
-
-```
-
-
-
-## 11.
-```bash 
-
-```
-
-
-
-## 12.
-```bash 
-
-```
-
-
-
-## 13.
-```bash 
-
-```
-
-
-
-## 14.
-```bash 
-
-```
-
-
-
-## 15.
-```bash 
-
-```
-
-
-
-## 16.
-```bash 
-
-```
-
-
-
-## 17.
-```bash 
-
-```
 
 
 
