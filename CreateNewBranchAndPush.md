@@ -8,8 +8,8 @@ git branch
 
 
 ## 2. Create a new branch.
-``` 
-git branch dev_rakib
+```bash 
+git branch <branch_name>
 ```
 #### Example:
 ```bash 
@@ -22,73 +22,105 @@ git branch dev_rakib
 ```bash 
 git branch -d <branch_name>
 ```
+#### Example:
+```bash 
+git branch dev_rakib
+```
 
-## 
+
+
+## 4.
 ```bash 
 
 ```
 
-## 
+
+
+## 5.
 ```bash 
 
 ```
 
-## 
+
+
+## 6.
 ```bash 
 
 ```
 
-## 
+
+
+## 7.
 ```bash 
 
 ```
 
-## 
+
+
+## 8.
 ```bash 
 
 ```
 
-## 
+
+
+## 9.
 ```bash 
 
 ```
 
-## 
+
+
+## 10.
 ```bash 
 
 ```
 
-## 
+
+
+## 11.
 ```bash 
 
 ```
 
-## 
+
+
+## 12.
 ```bash 
 
 ```
 
-## 
+
+
+## 13.
 ```bash 
 
 ```
 
-## 
+
+
+## 14.
 ```bash 
 
 ```
 
-## 
+
+
+## 15.
 ```bash 
 
 ```
 
-## 
+
+
+## 16.
 ```bash 
 
 ```
 
-## 
+
+
+## 17.
 ```bash 
 
 ```
