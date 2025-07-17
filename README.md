@@ -131,7 +131,10 @@
 | `git push <remote> --delete <branch>` | Delete a branch on a remote repository.        |
 | `git push <remote> :<tag>`            | Delete a tag on a remote repository.           |
 | `git push <remote> --tags`            | Push tags to a remote repository.              |
-| `git push --set-upstream <remote> <branch>`<br>`Ex: git push --set-upstream origin rakib` | Set the upstream branch for the current local branch. |
+| `git push --set-upstream <remote> <branch>`
+<br>`Ex: git push --set-upstream origin dev_rakib` 
+<br>Shorter Version Ex: git push -u origin dev_rakib | 
+Set the upstream branch for the current local branch. |
 | `git branch -dr <remote>/<branch>`    | Delete a remote tracking branch.               |
 | `git ls-remote <remote>`              | List references in a remote repository.        |
 | `git clone --mirror <repository>`     | Clone a repository as a mirrored copy.         |
