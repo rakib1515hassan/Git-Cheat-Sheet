@@ -37,6 +37,9 @@ git branch -D <branch>
 
 
 ## 5. Switch to a different branch.
+`
+git checkout <branch>
+`
 ```bash 
 git checkout <branch>
 ```
@@ -44,8 +47,11 @@ git checkout <branch>
 
 
 ## 6. Create and switch to a new branch.
-```bash 
+`
 git checkout -b <new-branch>
+`
+```bash 
+git checkout -b dev_rakib
 ```
 
 
@@ -55,7 +61,7 @@ git checkout -b <new-branch>
 git merge <branch>
 `
 >[!NOTE]
-> If i am in main branch and i want to merge with dev_rakib
+> If I am in the main branch and I want to merge with dev_rakib
 ```bash 
 git merge dev_rakib
 ```
