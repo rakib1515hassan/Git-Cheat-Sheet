@@ -3,7 +3,7 @@
 
 ## 1. Show Images From PC
 ```bash
-![This is my local image](MdFileNote/Image/image_1.jpg)
+![This is my local image](./Image/image_1.jpg)
 ```
 #### Example:
 ![This is my local image](MdFileNote/Image/image_1.jpg)
