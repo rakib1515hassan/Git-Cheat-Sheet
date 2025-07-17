@@ -11,7 +11,18 @@
 
 
 
-## 2. Show Images From Online
+
+## 2. Show Images From PC (using <img>)
+```bash
+<img src="./Image/image_1.jpg" alt="My local image" width="300"/>
+```
+#### Example:
+<img src="./Image/image_1.jpg" alt="My local image" width="300"/>
+
+
+
+
+## 3. Show Images From Online
 ```bash
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
 ```
