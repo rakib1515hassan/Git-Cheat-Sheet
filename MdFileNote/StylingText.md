@@ -8,3 +8,4 @@
 | Subscript           | `<sub>text</sub>`       | None                      | `H<sub>2</sub>O`                 | H<sub>2</sub>O                  |
 | Superscript         | `<sup>text</sup>`       | None                      | `x<sup>2</sup>`                  | x<sup>2</sup>                   |
 | Underline           | `<ins>text</ins>`       | None                      | `<ins>Underlined</ins>`          | <ins>Underlined</ins>           |
+
