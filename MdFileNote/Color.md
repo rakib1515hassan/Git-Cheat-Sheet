@@ -32,3 +32,13 @@ $\color{#FFA500}{Customer\ HEX\ Color}$ (Your Color)
 ```
 Example: 
 $\color{#FFA500}{Customer\ HEX\ Color}$ (Your Color)
+
+
+
+
+## 2. Background Color set
+```bash
+$\colorbox{yellow}{\color{black}{Highlights\ Text}}$
+```
+#### Example: 
+$\colorbox{yellow}{\color{black}{Highlights\ Text}}$
