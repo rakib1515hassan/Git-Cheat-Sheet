@@ -6,9 +6,9 @@
 
 ## 1. Markdown এক্সটেনশন ব্যবহার (Typora/Jupyter মতো টুলসে)
 ```bash
-$\color{green}{For check text color}$ 
+$\color{green}{For\ check\ text\ color}$ 
 ```
 Example: 
-$\color{green}{For check text color}$ 
+$\color{green}{For\ check\ text\ color}$ 
 
 
