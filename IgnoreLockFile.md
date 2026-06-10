@@ -1,5 +1,23 @@
 # Fix Git Tracking for Ignored Lock Files
 
+## Git Tracked এ কিকি আছে তা দখতে
+```bash
+git ls-files
+```
+## 🔍 Step 1: check file tracked কিনাে
+```bash
+git ls-files | grep "frontend/yarn.lock"
+```
+👉 যদি output আসে: `frontend/yarn.lock` মানে fileটা Git এ tracked আছে।
+
+## ❌ Step 2: Git থেকে remove (without deleting file)
+```bash
+git rm --cached frontend/yarn.lock
+```
+👉 এটা কি করবে? 
+- শুধু Git tracking থেকে remove করবে
+- file VPS/server এ থাকবে (delete হবে না), তোমাকে delete করতে হবে।
+
 ## 1. Remove the files from Git tracking (but keep them locally):
 ```bash
 git rm --cached <file>
