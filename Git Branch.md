@@ -88,7 +88,22 @@ git push -u origin dev_rakib
 git branch -dr <remote>/<branch>
 ```
 
-
-
-
-
+# Fetch branches from git
+## 1. Fetch the latest branches from the remote
+```bash
+git fetch origin
+```
+## 2. Check whether the branch exists
+```bash
+git branch -r
+```
+Look for origin/dev_rakib in the list.
+## 3. Create a local branch and switch to it
+```bash
+git switch -c dev_rakib --track origin/dev_rakib
+```
+This creates a local dev_rakib branch that tracks the remote branch.
+## 4. Verify your current branch
+```bash
+git branch
+```
